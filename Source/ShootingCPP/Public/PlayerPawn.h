@@ -29,6 +29,7 @@ public:
 public:
 	// 외형 / 충돌체를 생성하고 싶다.
 
+	UPROPERTY(EditAnywhere)
 	// 충돌체 컴포넌트를 추가해서 Root컴포넌트로 설정해주고 싶다.
 	class UBoxComponent* BoxComp;
 
